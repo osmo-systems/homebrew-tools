@@ -1,18 +1,18 @@
 class Rad < Formula
   desc "Terminal radio player powered by RadioBrowser"
   homepage "https://github.com/osmo-systems/rad"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/osmo-systems/rad/releases/download/v#{version}/rad-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "5c18614af16066e0bcb9f7b3707df580289dfdf42bac9f068aacf2d99c0ccd5a"
+      sha256 "62a71304bad2a3c2eefe7f0c96e29d31a8840b0f8d22a6536a54f0fa58c11e82"
     end
 
     on_intel do
       url "https://github.com/osmo-systems/rad/releases/download/v#{version}/rad-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "e3964104b16e5e410f5f86894207c60bcaeb43eb6e78dd5d10ba67c83f28e43a"
+      sha256 "6d3ee396921af2aaa2d21683175a3000485993940ddbdfbde281b33a5658f2e9"
     end
   end
 
@@ -21,12 +21,12 @@ class Rad < Formula
 
     on_arm do
       url "https://github.com/osmo-systems/rad/releases/download/v#{version}/rad-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b6b0a385a57a8c4bb7c77b65f02eeb2bd3ddb80fdfe12b69bfb4d719c6202c74"
+      sha256 "4b6798ae194f130afa867a7db0b5f04d816f416535c994b27df8ad3a5b2dda3e"
     end
 
     on_intel do
       url "https://github.com/osmo-systems/rad/releases/download/v#{version}/rad-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "494730c71f7810c8a7ee3c4b687739a9e2c52caeb48291b79ff4e02cc7183928"
+      sha256 "4ec480dbc7850e160b27df025daa6f4bda0149e8d2cb3bd8a491d5b609c3b6da"
     end
   end
 
